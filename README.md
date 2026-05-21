@@ -1,13 +1,13 @@
 # Phân Tích Và Lập Báo Cáo Đánh Giá Rủi Ro (Risk Assessment)
 
-## 📝 Tổng Quan Dự Án
+## Tổng Quan Dự Án
 Trong bối cảnh các cuộc tấn công mạng nhắm vào ứng dụng Web ngày càng tinh vi, việc chủ động nhận diện lỗ hổng và đánh giá tác động là bước đi sống còn để bảo vệ tài sản thông tin của doanh nghiệp. Dự án này tập trung nghiên cứu, xây dựng quy trình và thực hiện **Đánh giá rủi ro an ninh thông tin (Risk Assessment)** cho một hệ thống Web mô phỏng.
 
 Dự án áp dụng các tiêu chuẩn quốc tế uy tín kết hợp với các công cụ kiểm thử tự động để phát hiện, phân tích và xếp hạng rủi ro, từ đó đề xuất các giải pháp giảm thiểu tối ưu cho hệ thống.
 
 ---
 
-## 🏗️ Khung Phương Pháp Luận Sử Dụng
+## Khung Phương Pháp Luận Sử Dụng
 Quy trình đánh giá rủi ro trong dự án được xây dựng dựa trên sự kết hợp giữa các tiêu chuẩn và mô hình quản trị an toàn thông tin chuẩn hóa:
 1. **NIST SP 800-30 Rev 1:** Hướng dẫn nền tảng để thực hiện các bước đánh giá rủi ro (Nhận diện mối đe dọa, lỗ hổng, xác định khả năng xảy ra và mức độ tác động).
 2. **ISO/IEC 27005:** Khung quản lý rủi ro an ninh thông tin, hỗ trợ thiết lập bối cảnh và định hướng xử lý rủi ro cho doanh nghiệp.
@@ -15,14 +15,14 @@ Quy trình đánh giá rủi ro trong dự án được xây dựng dựa trên 
 
 ---
 
-## 🛠️ Công Cụ Và Môi Trường Thực Nghiệm
+## Công Cụ Và Môi Trường Thực Nghiệm
 * **Môi trường mô phỏng:** Triển khai các ứng dụng Web có chủ đích chứa lỗ hổng (DVWA/WebGoat hoặc hệ thống Web Lab) để tiến hành thực nghiệm an toàn.
 * **OWASP ZAP (Zed Attack Proxy):** Công cụ quét lỗ hổng tự động và bán tự động chủ lực được sử dụng để dò tìm các điểm yếu bảo mật (như SQL Injection, Cross-Site Scripting - XSS, Broken Authentication,...).
 * **Kiểm thử thủ công (Manual Testing):** Phối hợp kiểm tra lại kết quả từ công cụ tự động nhằm loại bỏ các cảnh báo sai (False Positives) và đánh giá sâu hơn logic nghiệp vụ của ứng dụng.
 
 ---
 
-## 📊 Quy Trình Đánh Giá & Xử Lý Rủi Ro
+## Quy Trình Đánh Giá & Xử Lý Rủi Ro
 
 ### 1. Phân Tích Điểm Yếu và Lỗ Hổng
 Thông qua việc quét và kiểm thử, hệ thống thu thập các dữ liệu kỹ thuật về:
@@ -46,10 +46,3 @@ Báo cáo đề xuất hai nhóm giải pháp chính:
 
 ---
 
-## 👥 Thành Viên Thực Hiện (Lớp 14DHBM02)
-Dự án được hoàn thành bởi các sinh viên thuộc Khoa Công nghệ Thông tin - Trường Đại học Công thương TP. HCM, dưới sự hướng dẫn của **GVHD: Ngô Quốc Huy**:
-
-1. **Đào Thị Khánh Chi** – *MSSV: 2033230035*
-2. **Lê Ngọc Phương Quỳnh** – *MSSV: 2033230247*
-3. **Trương Lê Trúc Quỳnh** – *MSSV: 2033230246*
-4. **Tống Lạc Lan Viên** – *MSSV: 2033230322*
